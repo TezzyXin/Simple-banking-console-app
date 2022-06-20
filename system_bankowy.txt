@@ -1,0 +1,72 @@
+Bank:
+-otworzenie konta
+-zalogowanie się na konto
+-użycie bankomatu
+
+Customer:
+-dodanie rachunku
+-usunięcie rachunku
+-pokazanie listy rachunków
+
+Account:
+-zrobienie przelewu na inny rachunek
+-pokazanie salda
+-pokazanie danych osobowych
+
+ATM:
+-wpłata na rachunek
+-wypłata z rachunku
+-sprawdzenie stanu rachunku
+
+CSVUtils:
+-zapis do pliku
+-odczyt z pliku
+-autoryzacja
+
+
+
+
+1. Interfejs użytkownika
+2. Działanie systemu bez użycia plików
+3. Dodanie zapisu i odczytu z plików
+4. Obsługa wyjątków
+5. Testy jednostkowe
+
+
+Customer:
+//-*Logowanie do konta
+//-Zmiana hasła
+-(Zmiana danych osobowych)
+//-Hashowanie haseł
+//-Sprawdzenie czy hasło jest wystarczająco bezpieczne
+
+
+Account:
+-*Przelewy
+//-Usuwanie konta (przez admina?)
+//-Zmiana PINu
+//-Hashowanie PINów
+
+ATM:
+-*Logowanie do konta
+-*Przelewy
+
+-Wyjątki, przewidzenie wszystkich możliwych inputów od użytkownika
+
+
+Pytania:
+Czy menu ma się zapętlać?
+Czy menu może być w jednej metodzie?
+Czy po wylogowaniu się program ma wrócić do menu czy całkiem wyłączyć program? (To znaczy czy obecny system menu jest w porządku?)
+Czy numer konta ma mieć 16 cyfr?
+Czy customer może usunąć konto (bankowe a nie użytkownika)?
+Czy admin ma wpisywać PIN ręcznie przy tworzeniu konta czy ma się ono generować losowo?
+W jakim formacie admin ma wyświetlać dane? Czy obecny sposób jest w porządku
+Czy admin ma wpisywać stare hasło gdy chce zmienić komuś na nowe?
+Czy klient może zmienić swoje hasło bądź PIN czy jest to tylko dozwolone dla admina?
+
+
+
+
+
+ 
